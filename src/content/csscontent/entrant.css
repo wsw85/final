@@ -1,0 +1,95 @@
+.wrapper-block {
+	margin-bottom: 20px;
+}
+
+.heading {
+	padding: 10px;
+	background-color: #337ab7;
+	color: white;
+	text-align: center;
+	font-size: 1.2rem;
+	border: 1px solid #337ab7;
+	border-radius: 10px 10px 0 0;
+	cursor: pointer;
+	position: relative;
+}
+
+.heading::before {
+	content: '▼';
+	position: absolute;
+	left: 20px;
+	line-height: 1.5rem;
+	font-size: 0.8rem;
+}
+
+.heading:hover {
+	background-color: blue;
+	color: yellow;
+}
+
+.wrapper-text {
+	max-height: 0;
+	overflow: hidden;
+	padding: 0px;	
+	transition: padding 0.8s ease, max-height 0.8s ease;	
+	text-align: justify;
+	font-size: 1rem;
+	border: 1px solid #337ab7;
+	border-top: none;
+	border-radius: 0 0 10px 10px;	
+}
+
+.open-text {
+	max-height: 2000px;
+	padding: 10px;
+	overflow: auto;
+}
+
+.wrapper-text > h3 {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.wrapper-text > p {
+	text-indent: 1rem;
+	margin: 10px 0 10px 0;
+}
+
+.bold-text {
+	text-align: center;
+	font-weight: bold;
+}
+
+.docimg {
+	text-align: center;
+}
+
+.wrapper-text > p.docimg {
+	text-indent: 0;
+}
+
+.docimg > img {
+	width: 49%;
+}
+
+table.table-reception {
+	border: none;
+	border-collapse: collapse;
+	margin-top: 10px;
+}
+
+table.table-reception > tr {
+	border: 1px solid rgba( 100, 100, 100, 0.5 );	
+}
+
+table.table-reception > tr:hover {
+	box-shadow: 0 0 5px 5px #337ab7;
+}
+
+table.table-reception > tr:nth-child(2n) {
+	background-color: rgba( 200, 200, 200, 0.4);
+}
+
+table.table-reception > tr > td {
+	padding: 10px;
+}

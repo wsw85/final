@@ -17,11 +17,11 @@ class Footer extends React.Component {
 				<div className="contact">
 					<h3 className="center">Контакти:</h3>				
 					<p className="text-adress">
-						E-mail: ztvmbtsau@ukr.net <br />
-						Телефон: (04737) 5-24-37  <br />
-						Facebook: (04737) 5-24-37
+						<strong>E-mail:</strong> ztvmbtsau@ukr.net <br />
+						<strong>Телефон:</strong> (04737) 5-24-37  <br />
+						<a href="https://www.facebook.com/ZoloCollege/" target="_blank" rel="noreferrer noopener"><img src="images/icons/facebook.png" alt="facebook" className="facebook" /></a>
 					</p>
-					<br />
+					
 				</div>
 				<div className="map">
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1991.1446782646597!2d32.03730389912987!3d49.66946205151982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d6af560fefe843%3A0x8430f68ed5b338fc!2sZolotonossky+College+of+Veterinary+Medicine!5e0!3m2!1sru!2sua!4v1540808452051" id="map_zolo" title="map_zolo" width='100%' height='100%' frameBorder='0' style={{border:0}} allowFullScreen></iframe>

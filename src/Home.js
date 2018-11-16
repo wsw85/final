@@ -1,108 +1,111 @@
 import React from 'react';
-
-class contentIndex extends React.Component {
+class Home extends React.Component {
   render() {
     return (
     		<section className="content-section">
 				<ul className="list-section">
-					<li><a href="#">						
+					<li><span onClick={() => {
+						this.props.updateData(1);
+						}}>						
 							<div className="link-card">
 						    	<div className="clip-img">
-						    		<img src="images/icons/college.png" alt="image college" />
+						    		<img src="images/icons/college.png" alt="college" />
 								</div>
 						    	<span>Про коледж</span>
 						    </div>					
-						</a>
+						</span>
 					</li>
-					<li><a href="#">						
+					<li><span onClick={() => {
+						this.props.updateData(2);
+						}}>						
 							<div className="link-card">
 								<div className="clip-img">
-						    	<img src="images/icons/entrant.png" alt="image entrant" />
+						    	<img src="images/icons/entrant.png" alt="entrant" />
 						    	</div>
 						    	<span>Абітурієнту</span>
 						    </div>						
-						</a>
+						</span>
 					</li>
-					<li><a href="#">						
+					<li><span>						
 							<div className="link-card">
 								<div className="clip-img">
-						    	<img src="images/icons/student.png" alt="image student" />
+						    	<img src="images/icons/student.png" alt="student" />
 						    	</div>
 						    	<span>Студенту</span>
 						    </div>						
-						</a>
+						</span>
 					</li>
-					<li><a href="#">						
+					<li><span>						
 							<div className="link-card">
 								<div className="clip-img">
-						    	<img src="images/icons/teachers.png" alt="image teacher" />
+						    	<img src="images/icons/teachers.png" alt="teacher" />
 						    	</div>
 						    	<span>Викладачу</span>
 						    </div>						
-						</a>
+						</span>
 					</li>
-					<li><a href="#">						
+					<li><span>						
 							<div className="link-card">
 								<div className="clip-img">
-						    	<img src="images/icons/news.png" alt="image news" />
+						    	<img src="images/icons/news.png" alt="news" />
 						    	</div>
 						    	<span>Новини</span>
 						    </div>						
-						</a>
+						</span>
 					</li>
-					<li><a href="#">						
+					<li><span>						
 							<div className="link-card">
 								<div className="clip-img">
-						    	<img src="images/icons/accounting.png" alt="image counting house" />
+						    	<img src="images/icons/accounting.png" alt="counting house" />
 						    	</div>
 						    	<span>Бухгалтерія</span>
 						    </div>						
-						</a>
+						</span>
 					</li>	
-					<li><a href="#">						
+					<li><span>						
 							<div className="link-card">
 								<div className="clip-img">
-						    	<img src="images/icons/methodical_cabinet.png" alt="image methodica cabinet" />
+						    	<img src="images/icons/methodical_cabinet.png" alt="methodica cabinet" />
 						    	</div>
 						    	<span>Методичний кабінет</span>
 						    </div>						
-						</a>
+						</span>
 					</li>
-					<li><a href="#">						
+					<li><span>						
 							<div className="link-card">
 								<div className="clip-img">
-						    	<img src="images/icons/library.png" alt="image books" />
+						    	<img src="images/icons/library.png" alt="books" />
 						    	</div>
 						    	<span>Електронні підручники</span>
 						    </div>						
-						</a>
+						</span>
 					</li>
-					<li><a href="#">						
+					<li><span>						
 							<div className="link-card">
 								<div className="clip-img">
-						    	<img src="images/icons/zno.png" alt="image zno" />
+						    	<img src="images/icons/zno.png" alt="zno" />
 						    	</div>
 						    	<span>ЗНО</span>
 						    </div>						
-						</a>
+						</span>
 					</li>
-					<li><a href="#">						
+					<li><span>						
 							<div className="link-card">
 								<div className="clip-img">
-						    	<img src="images/icons/teacher_sites.png" alt="image teachers site" />
+						    	<img src="images/icons/teacher_sites.png" alt="teachers site" />
 						    	</div>
 						    	<span>Сайти викладачів</span>
 						    </div>						
-						</a>
+						</span>
 					</li>
-					<li><a href="#">						
+					<li><span>						
 							<div className="link-card">
 								<div className="clip-img">
-						    	<img src="images/icons/adress.png" alt="image adress" />
+						    	<img src="images/icons/adress.png" alt="adress" />
 						    </div>
 						    	<span>Наша адреса</span>
 						    </div>						
-						</a>
+						</span>
 					</li>
 					<li></li>											
 				</ul>
@@ -111,4 +114,4 @@ class contentIndex extends React.Component {
 	}
 }
 
-export default contentIndex;
+export default Home;

@@ -20,11 +20,12 @@
   text-align: center;
 }
 
-.list-section > li > a{
+.list-section > li > span{
   display: block;
   width: 80%;
   margin: 0 auto;
   text-decoration: none;
+  cursor: pointer;  
 }
 
 .link-card{
@@ -37,7 +38,7 @@
   border: 1px solid #555555;
   box-shadow: 0 0 20px #337ab7;
   transform: scale(1.2);
-  transition: transform 0.2s linear;
+  transition: transform 0.5s;
   z-index: 500;
 }
 
