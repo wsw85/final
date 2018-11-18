@@ -1,0 +1,45 @@
+.list-address {
+	display: block;
+	margin: 0 auto;
+	width: 90%;
+}
+
+.list-address dt {
+	font-weight: bold;
+	font-size: 1.2rem;
+	margin-top: 1.5rem;
+}
+
+.list-address dt:first-child {
+	margin-top: -20px;
+}
+
+.list-address dd {
+	margin-left: 5rem;
+	margin-top: 0.5rem;
+}
+
+.phone-email {
+	width: 50%;
+}
+
+.phone-email td:first-child {
+	width: 25%;
+}
+
+.phone-email td {
+	vertical-align: top;
+	padding: 5px 0;
+}
+
+.address-facebook {
+	display: inline;
+	width: 150px;
+	height: 50px;
+	margin-bottom: -20px;
+}
+
+.address-map {
+	width: 100%;
+	height: 75vh;
+}

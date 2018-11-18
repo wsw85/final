@@ -4,14 +4,19 @@ import LinksMenu from './LinksMenu.js';
 
 class Header extends React.Component {
   render() {
-  	var elementImage;
-  	if (this.props.id === 0){
-  		elementImage = <img src="images/vettehzol.jpg" alt="Золотоніський коледж ветеринарної медицини Білоцерківського національного аграрного університету" className="image-header"/>;
-  	} else {
-  		elementImage = '';
-  	}
-    return (
-  		
+	var elementImage;
+	if (this.props.id === 0){
+	elementImage = <img src="images/vettehzol.jpg" alt="Золотоніський коледж ветеринарної медицини Білоцерківського національного аграрного університету" className="image-header"/>;
+	} else {
+	elementImage = '';
+	}
+	if (this.props.id !== 0){
+		var breadcrumbs = <span className = "active-bread-crumbs">{LinksMenu[this.props.id].name}</span>;
+	} else {
+		breadcrumbs = '';
+	}
+		return (
+
 		<header className="main-header">
 			<div className="wrapper-header">
 				<div className="main-menu">
@@ -38,7 +43,12 @@ class Header extends React.Component {
 				))}				
 			</ul>
 			{elementImage}
-			<p>links</p>
+			<div className = "bread-crumbs">
+				<span className = "cursor-pointer" onClick={() => {
+						this.props.updateData(0);
+						}}>Головна / </span>
+				{breadcrumbs}
+			</div>
 		</header>
 		)
 	}

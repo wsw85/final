@@ -48,7 +48,7 @@ html{
   width: 80px;
   height: 80px;
   align-self: center;
-  background-color: inherit;
+  background-color: #337ab7;
   border: 1px solid #aaaaaa;
   border-radius: 5%;
   font-family: 'Gabriela', serif;
@@ -108,6 +108,21 @@ html{
 
 .active{
   max-height: 2000px;  
+}
+
+.bread-crumbs {
+	padding: 10px 40px;
+	border-top: 1px solid lightgray;
+	font-weight: 600;
+	color: white;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.active-bread-crumbs {
+	color: lightgray;
 }
 
 .footer{

@@ -68,7 +68,7 @@
 	text-indent: 0;
 }
 
-.docimg > img {
+.docimg a img {
 	width: 49%;
 }
 
@@ -78,18 +78,53 @@ table.table-reception {
 	margin-top: 10px;
 }
 
-table.table-reception > tr {
+table.table-reception tr {
 	border: 1px solid rgba( 100, 100, 100, 0.5 );	
 }
 
-table.table-reception > tr:hover {
-	box-shadow: 0 0 5px 5px #337ab7;
+table.table-reception tr:hover {
+	box-shadow: 0 0 2px 2px #337ab7;
 }
 
-table.table-reception > tr:nth-child(2n) {
+table.table-reception tr:nth-child(2n) {
 	background-color: rgba( 200, 200, 200, 0.4);
 }
 
-table.table-reception > tr > td {
+table.table-reception tr td {
 	padding: 10px;
+}
+
+table.table-reception tr td:first-child {
+	font-weight: bold;
+	width: 60%;
+}
+
+table.table-reception tr td:last-child {
+	text-align: center;
+	width: 40%;
+}
+
+ol.list-document {
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+}
+
+ol.list-document li {
+	padding-bottom: 20px;
+	padding-left: 10px;
+}
+
+ol.list-document li:last-child {
+	padding-bottom: 10px;
+}
+
+.ppzkvmbnau {
+	margin-left: 2rem;
+	padding: 10px;
+	background-color: dodgerblue;
+	color: white;
+	text-decoration: none;
+	font-weight: 600;
+	border-radius: 5px;
 }
