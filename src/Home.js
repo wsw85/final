@@ -26,7 +26,9 @@ class Home extends React.Component {
 						    </div>						
 						</span>
 					</li>
-					<li><span>						
+					<li><span onClick={() => {
+						this.props.updateData(3);
+						}}>						
 							<div className="link-card">
 								<div className="clip-img">
 						    	<img src="images/icons/student.png" alt="student" />
@@ -35,7 +37,9 @@ class Home extends React.Component {
 						    </div>						
 						</span>
 					</li>
-					<li><span>						
+					<li><span onClick={() => {
+						this.props.updateData(4);
+						}}>						
 							<div className="link-card">
 								<div className="clip-img">
 						    	<img src="images/icons/teachers.png" alt="teacher" />
@@ -44,7 +48,9 @@ class Home extends React.Component {
 						    </div>						
 						</span>
 					</li>
-					<li><span>						
+					<li><span onClick={() => {
+						this.props.updateData(5);
+						}}>						
 							<div className="link-card">
 								<div className="clip-img">
 						    	<img src="images/icons/news.png" alt="news" />
@@ -53,7 +59,9 @@ class Home extends React.Component {
 						    </div>						
 						</span>
 					</li>
-					<li><span>						
+					<li><span onClick={() => {
+						this.props.updateData(6);
+						}}>						
 							<div className="link-card">
 								<div className="clip-img">
 						    	<img src="images/icons/accounting.png" alt="counting house" />
@@ -62,7 +70,9 @@ class Home extends React.Component {
 						    </div>						
 						</span>
 					</li>	
-					<li><span>						
+					<li><span onClick={() => {
+						this.props.updateData(7);
+						}}>						
 							<div className="link-card">
 								<div className="clip-img">
 						    	<img src="images/icons/methodical_cabinet.png" alt="methodica cabinet" />
@@ -71,7 +81,9 @@ class Home extends React.Component {
 						    </div>						
 						</span>
 					</li>
-					<li><span>						
+					<li><span onClick={() => {
+						this.props.updateData(8);
+						}}>						
 							<div className="link-card">
 								<div className="clip-img">
 						    	<img src="images/icons/library.png" alt="books" />
@@ -80,7 +92,9 @@ class Home extends React.Component {
 						    </div>						
 						</span>
 					</li>
-					<li><span>						
+					<li><span onClick={() => {
+						this.props.updateData(9);
+						}}>						
 							<div className="link-card">
 								<div className="clip-img">
 						    	<img src="images/icons/zno.png" alt="zno" />
@@ -89,7 +103,9 @@ class Home extends React.Component {
 						    </div>						
 						</span>
 					</li>
-					<li><span>						
+					<li><span onClick={() => {
+						this.props.updateData(10);
+						}}>						
 							<div className="link-card">
 								<div className="clip-img">
 						    	<img src="images/icons/teacher_sites.png" alt="teachers site" />
@@ -98,7 +114,9 @@ class Home extends React.Component {
 						    </div>						
 						</span>
 					</li>
-					<li><span>						
+					<li><span onClick={() => {
+						this.props.updateData(11);
+						}}>						
 							<div className="link-card">
 								<div className="clip-img">
 						    	<img src="images/icons/adress.png" alt="adress" />

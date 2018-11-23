@@ -76,6 +76,7 @@ table.table-reception {
 	border: none;
 	border-collapse: collapse;
 	margin-top: 10px;
+	width: 100%;
 }
 
 table.table-reception tr {

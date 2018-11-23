@@ -18,7 +18,7 @@ class Footer extends React.Component {
 					<h3 className="center">Контакти:</h3>				
 					<p className="text-adress">
 						<strong>E-mail:</strong> ztvmbtsau@ukr.net <br />
-						<strong>Телефон:</strong> (04737) 5-31-87
+						<strong>Телефон:</strong> (04737) 5-24-57
 						<a href="https://www.facebook.com/ZoloCollege/" target="_blank" rel="noreferrer noopener"><img src="images/icons/facebook.png" alt="facebook" className="facebook" /></a>
 					</p>
 					

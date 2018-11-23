@@ -1,0 +1,18 @@
+.zno-img {
+	text-align: center;	
+}
+
+.zno-img img {
+	border-radius: 10px;
+}
+
+.zno-text {
+	max-width: 100%;
+	padding: 0 10px;
+	text-indent: 1rem;
+	text-align: justify;
+}
+
+.zno-text p {
+	padding: 5px 0;
+}

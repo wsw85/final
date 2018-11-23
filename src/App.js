@@ -6,7 +6,6 @@ import Footer from './Footer.js';
 
 import './App.css';
 
-
 class App extends React.Component {
 
 	state = {

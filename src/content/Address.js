@@ -16,12 +16,18 @@ class Address extends React.Component {
 								<tr>
 									<td><strong>E-mail:</strong></td>
 									<td>ztvmbtsau@ukr.net</td>
+									<td></td>
 								</tr>
 								<tr>
 									<td><strong>Телефон:</strong></td>
-									<td>(04737) 5-31-87,<br />
-										(04737) 5-26-07,<br />
+									<td>(04737) 5-31-87<br />
+										(04737) 5-26-07<br />
 										(04737) 5-24–57
+									</td>
+									<td>
+										директор<br />
+										бухгалтерія<br />
+										приймальна директора
 									</td>
 								</tr>
 							</tbody>

@@ -1,0 +1,63 @@
+table.table-call-schedule {
+	border: none;
+	border-collapse: collapse;
+	margin-top: 10px;
+	width: 50%;
+	margin: 0 auto;
+}
+
+table.table-call-schedule tr {
+	border: 1px solid rgba( 100, 100, 100, 0.5 );	
+}
+
+table.table-call-schedule tr:hover {
+	box-shadow: 0 0 2px 2px #337ab7;
+}
+
+table.table-call-schedule tr:nth-child(2n) {
+	background-color: rgba( 200, 200, 200, 0.4);
+}
+
+table.table-call-schedule tr td {
+	padding: 10px;
+	text-align: center;
+	vertical-align: middle;
+	width: 50%;
+}
+
+table.table-call-schedule tr td:first-child {
+	font-weight: bold;
+}
+
+.wrapper-text p.rozklad {
+	text-indent: 0;
+}
+
+.rozklad a {
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.rozklad a img {
+	width: 100%;	
+	border-radius: 10px;
+	border: 1px solid black;
+	box-shadow: 0 0 5px 2px black;
+	margin: 0 auto;
+}
+
+.rozklad a img:last-child {
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+p.student {
+	text-align: center;
+	text-indent: 0;
+}
+
+p.student img {
+	width: 90%;
+	border-radius: 10px;
+}
