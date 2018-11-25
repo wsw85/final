@@ -15,7 +15,7 @@
 
 .list-section > li{
   display: inline-block;
-  width: 24%;
+  /*width: 24%;*/
   margin-bottom: 20px;
   text-align: center;
 }

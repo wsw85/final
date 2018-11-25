@@ -47,7 +47,7 @@ class TeacherSites extends React.Component {
 				<td>6</td>
 				<td>Косенко О.В.</td>
 				<td>викладач вищої кваліфікаційної категорії</td>
-				<td><br />mkztvm.wixsite.com/krylatamova<br /><br /></td>
+				<td><br />mkztvm.wixsite.com/<br />krylatamova<br /><br /></td>
 				<td><a href="https://mkztvm.wixsite.com/krylatamova" target="_blank" rel="noreferrer noopener">Перейти</a></td>
 			</tr>
 			<tr>

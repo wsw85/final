@@ -29,8 +29,8 @@
 	padding: 10px 5px;
 }
 
-.table-book td:first-child {
-	width: 5%;
+.table-book td:first-child, .table-book th:first-child {
+	width: 10%;
 	text-align: center;
 	vertical-align: middle;
 }
