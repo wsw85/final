@@ -20,8 +20,6 @@ html{
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  /*min-height: 100vh;
-  width: 1024px;*/
   margin: 0 auto;   
 }
 
@@ -94,13 +92,6 @@ html{
   font-weight: bold;
 }
 
-/*
-.sub-list-menu{
-  list-style: none;
-  margin-left: 80px;
-}
-*/
-
 .links-menu:hover, .links-menu:active{
   background-color: blue;
   color: yellow;
@@ -128,18 +119,15 @@ html{
 
 .footer{
   display: flex;
-/*  flex-direction: row;*/
   justify-content: space-between;
   align-items: center;
 }
 
 .adress, .contact, .map{
-/*  width: 33%;*/
   padding: 20px;
   font-family: 'Gabriela', serif;
   font-size: 1.1rem;
   color: white;
-/*  border-right: 1px solid white;*/
 }
 
 .map{
