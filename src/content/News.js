@@ -1,5 +1,6 @@
 import React from 'react';
-import data from './news.json';
+//import data from './news.dat';
+//import data from './news.json';
 import './csscontent/news.css';
 
 class News extends React.Component {
@@ -7,13 +8,20 @@ class News extends React.Component {
 		popupOpen: false,
 		newsId: '',
 		countNews: 0,
-		buttonsNewsSelect: 0
+		buttonsNewsSelect: 0,
+		data: null
 	}
 
-	arrayNews = () => {
+	componentDidMount() {
+		fetch('news/news.json').then(response => response.json()).then(json => {
+			this.setState({ data: json });
+		});
+	}
+
+	arrayNews = () => {		
 		var arr = [];
-		for (var prop in data) {
-    		arr.push(data[prop]);
+		for (var prop in this.state.data) {
+    		arr.push(this.state.data[prop]);
 		}
 		arr.reverse();
 		var mass = [];
@@ -51,12 +59,13 @@ class News extends React.Component {
 	}
 							
 	showButtons = () => {
-			var countButtons = Math.floor(Object.keys(data).length / 10);
+		var arrayButtons = [];
+		if (this.state.data !== null) {
+			var countButtons = Math.floor(Object.keys(this.state.data).length / 10);
 			countButtons += 1;
-			var arrayButtons = [];
 			for (var i = 0; i < countButtons; i++) {
 				arrayButtons[i] = i;
-			}
+			}}
 			return arrayButtons.map(index => <button key = {index} className = { index === this.state.buttonsNewsSelect ? "buttons-news-select" : ""} onClick = { this.pageNews.bind(this, index) }>{index+1}</button>)
 		}
 
