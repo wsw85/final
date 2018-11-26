@@ -1,6 +1,4 @@
 import React from 'react';
-//import data from './news.dat';
-//import data from './news.json';
 import './csscontent/news.css';
 
 class News extends React.Component {
